@@ -1,0 +1,47 @@
+body {
+  width: 300px;
+}
+.greeting {
+  width: 100%;
+  height: 100%;
+  font-family: 'Didot';
+  background-attachment: fixed;
+  background-color: plum;
+  border-radius: 5%;
+  padding-bottom: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+}
+section {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(245, 226, 209, 0.993);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-family: 'Cochin';
+  font-size: 40px;
+  text-align: center;
+  color: plum;
+}
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px;
+  color: rgb(199, 238, 199);
+}
+h2 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 300;
+  color: peachpuff;
+}
