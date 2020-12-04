@@ -1,3 +1,9 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
 body {
   width: 300px;
 }
@@ -44,4 +50,31 @@ h2 {
   font-size: 20px;
   font-weight: 300;
   color: peachpuff;
+}
+#my-pink-button{
+  background-color: pink;
+}
+#my-light-blue-button{
+  background-color: lightblue;
+}
+#my-light-green-button{
+  background-color: lightgreen;
+}
+.input-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px 5px 0px;
+}
+.add-name-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px 5px 0px;
+}
+.color-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px 5px 0px;
 }
